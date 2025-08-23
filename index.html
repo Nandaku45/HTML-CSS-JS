@@ -3,80 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forms</title>
+    <title>Time_Table</title>
 </head>
 <body>
-    <h1 style="text-align: center;">Student Form</h1>
-    <form action=""  method="post">
-    <ol>
-        <li  style="height: 50px;">
+    <h2>My Daily Time Table</h2>
+    <table border="2">
+        <tr>
 
-            <label for="Username">Username:</label>
-            <input type="text" id="Username" name="Username" placeholder="Enter the username"  >
-        </li>
-        
-       <li style="height: 50px;">
+            <th colspan="8">Week Days</th>
+        </tr>
+        <tr>
+            <th>WEEK Name</th>
+            <th>6am to 7 am</th>
+            <th>7 am to 8 am</th>
+            <th>8 am to 9 am</th>
+            <th>9 am to 6 pm</th>
+            <th>6 pm to 7 pm</th>
+            <th>7 pm to 8 pm</th>
+            <th>8pm to 9 pm</th>
 
-           
-           <label for="Email" >Email:</label>
-           <input id="Email" type="text" name="Email" placeholder="Enter the Email">
-        </li>
-       <li style="height: 50px;">
-
-        <label for="Mobile Number">Mobile Number:</label>
-        <input id="Mobile Number" type="text" name="Mobile Number"  placeholder="Enter the Mobile Number">
-       </li>
-<li style="height: 50px;">
-
-        <label for="Whatsapp Number">Whatsapp Number:</label>
-        <input id="Whatsapp Number" type="text" name="Whatsapp Number"  placeholder="Enter the Whatsapp Number">
-       </li>
-
-
-       <li style="height: 50px;">
-
-        <label for="College">College Name:</label>
-        <input id="College" type="text" name="College Name"  placeholder="Enter the College Name">
-       </li>
-<li>
-       <fieldset  style="width: 500px;">
-            <legend style="text-align: center;">Gender:</legend>
-            <input id="Male" type="radio" value="Male" name="Gender">
-            <label for="Male">Male</label>
-             <input id="Female" type="radio" value="Feale" name="Gender">
-            <label for="Female">Female</label>
-            <input id="other" type="radio" value="Other" name="Gender">
-            <label for="other">Other</label>
-       </fieldset>
-       </li>
-       <li style="height: 50px;">
-     
-<p style="height:50px;">
-
-    <label for="state">State:</label>
-    <select id="state" name="State">
-        
-        <option value="AP">Andhra Pradesh</option>
-        <option value="KA">Karnataka </option>
-        <option value="TN"> TamilNadu</option>
-        
-        <option value="TG"> Telangana</option>
-    </select>
-</p>
-   
-       </li>
-<li>
-<p>
-    <label for="Comments" style="text-align: justify;">Comments:</label>
-    <textarea id="Comments" cols="140" rows="10" style="text-align: center;" placeholder="Type your comments"></textarea>
-</p>
-</li>
-
-    </ol>
-
-   <!-- <label for="Submit">Submit</label>_-->
-    <input type="submit" id="Submit" name="Submit" value="Submit" style="color: crimson; width: 200px; height: 50px; padding-left: 20px; padding-right: 20px;margin-left: 50px;">
-        <input type="reset" id="Close" name="Close" value="reset" style="color: crimson; width: 200px; height: 50px; padding-left: 20px; padding-right: 20px;margin-left: 50px;" >
-</form>
+        </tr>
+        <tr>
+            <td rowspan="2" style="text-align: center;">Monday</td>
+            <td>Jogging & Exercise</td>
+            <td>Freshup</td>
+            <td>Breakfast</td>
+            <td>Work(includes Lunch)</td>
+            <td>Walking</td>
+            <td>Social Media</td>
+            <td>Dinner</td>
+        </tr>
+         <tr>
+            <td>Jogging & Exercise</td>
+            <td>Freshup</td>
+            <td>Breakfast</td>
+            <td>Work(includes Lunch)</td>
+            <td>Walking</td>
+            <td>Social Media</td>
+            <td>Dinner</td>
+        </tr>
+         <tr>
+            <td rowspan="1" style="text-align: center;">|</td>
+            <td>Jogging & Exercise</td>
+            <td>Freshup</td>
+            <td>Breakfast</td>
+            <td>Work(includes Lunch)</td>
+            <td>Walking</td>
+            <td>Social Media</td>
+            <td>Dinner</td>
+        </tr>
+             <tr>
+            <td rowspan="2" style="text-align: center;">Friday</td>
+            <td>Jogging & Exercise</td>
+            <td>Freshup</td>
+            <td>Breakfast</td>
+            <td>Work(includes Lunch)</td>
+            <td>Walking</td>
+            <td>Social Media</td>
+            <td>Dinner</td>
+        </tr>
+           <tr>
+            <td>Jogging & Exercise</td>
+            <td>Freshup</td>
+            <td>Breakfast</td>
+            <td>Work(includes Lunch)</td>
+            <td>Walking</td>
+            <td>Social Media</td>
+            <td>Dinner</td>
+        </tr>
+        <tr>
+            <th colspan="8">WeekEnds</th>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>Jogging & Exercise</td>
+            <td>Freshup</td>
+            <td>Breakfast</td>
+            <td colspan="3">Movies,Games,Trips and Shopping</td>
+            <td>Dinner</td>
+        </tr>
+         <tr>
+            <td>Sunday</td>
+            <td>Jogging & Exercise</td>
+            <td>Freshup</td>
+            <td>Breakfast</td>
+            <td colspan="3">Movies,Games,Trips and Shopping</td>
+            <td>Dinner</td>
+        </tr>
+    </table>
 </body>
 </html>
